@@ -10,20 +10,22 @@ body {
 }
 
 header h1 {
+    color: #748b97;
     text-align: center;
     background-color: lightgray;
-}
-
-.addClient {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
     border: 1px solid black;
-    padding: 10px;
-    background-color: #748b97;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    border-radius: 5px;
 }
 
 .clientList {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 100px;
     background-color: #748b97;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
 }
 
 .clientList div {
@@ -31,3 +33,33 @@ header h1 {
     border: 1px solid black;
     padding: 10px;
 } 
+
+.addClient {
+    margin: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #748b97;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+
+.addClient input {
+    border:rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.submitBtn {
+    color: white;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 2px;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.submitBtn:hover {
+    font-style: italic;
+    color:#748b97;
+    background-color: white;
+}
