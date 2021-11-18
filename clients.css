@@ -29,10 +29,21 @@ header h1 {
 }
 
 .clientList div {
-    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    -webkit-text-stroke: .5px black;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);;
+    background-color: lightgrey;
+    font-weight: bold;
     border: 1px solid black;
     padding: 10px;
 } 
+
+.clientList div:hover {
+    color: white;
+    background-color: darkgrey;
+}
 
 .addClient {
     margin: 100px;
@@ -44,6 +55,8 @@ header h1 {
 }
 
 .addClient input {
+    margin-top: 10px;
+    margin-bottom: 10px;
     border:rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 2px;
@@ -51,7 +64,7 @@ header h1 {
 
 .submitBtn {
     color: white;
-    background-color: lightgray;
+    background-color: darkgrey;
     border: 1px solid black;
     padding: 10px;
     border-radius: 2px;
