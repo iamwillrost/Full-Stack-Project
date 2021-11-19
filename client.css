@@ -5,14 +5,15 @@
 }
 
 body {
-    background-image: url('../Full-Stack-Project/photo-1449824913935-59a10b8d2000.jpeg');
+    background-image: url('../Full-Stack-Project/IMG_3879.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: white;
 }
 
-header h1 {
+header {
+    margin: 100px;
     color: white;
     text-align: center;
     background-color: darkgrey;
@@ -22,8 +23,12 @@ header h1 {
     border-radius: 5px;
 }
 
+header h1 {
+    border-bottom: 3px solid;
+}
+
 .clientList {
-    margin: 100px;
+    margin: 100px 150px;
     background-color: #748b97;
     padding: 15px;
     border: 1px solid black;
@@ -31,7 +36,12 @@ header h1 {
     box-shadow: 0 0 50px rgba(0, 0, 0, 1);
 }
 
-.clientList div {
+.clientList h2 {
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+.clientList ul {
     margin-top: 10px;
     margin-bottom: 10px;
     color: black;
@@ -42,24 +52,31 @@ header h1 {
     padding: 10px;
 } 
 
-.clientList div:hover {
+.clientList ul:hover {
     color: white;
     background-color: darkgrey;
 }
 
 .addClient {
-    margin: 100px;
+    margin: 150px;
+    width: 30%;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
     background-color: #748b97;
     box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.addClient h3 {
+    border-bottom: 3px solid;
+    text-align: center;
 }
 
 .addClient input {
     margin-top: 10px;
     margin-bottom: 10px;
-    border:rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
     padding: 10px;
     border-radius: 2px;
 }
