@@ -28,7 +28,8 @@ header h1 {
 }
 
 .clientList {
-    margin: 100px 150px;
+    margin: /* 100px */ 150px;
+    width: 30%;
     background-color: #748b97;
     padding: 15px;
     border: 1px solid black;
