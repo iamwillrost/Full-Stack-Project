@@ -22,13 +22,16 @@ header {
     box-shadow: 0 0 50px rgba(0, 0, 0, 1);
 }
 
-header h3:hover {
+header h2:hover {
     /* color: lightgrey; */
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .businessName {
-    margin: 100px;
+    margin-top: 125px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
     color: white;
     text-align: center;
     background-color: darkgrey;
@@ -40,6 +43,7 @@ header h3:hover {
 
 .businessName h1 {
     border-bottom: 3px solid;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
 .clients {
@@ -83,7 +87,7 @@ header h3:hover {
 .addClient {
     margin: 60px;
     width: 400px;
-    height: 240px;
+    height: 245px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
