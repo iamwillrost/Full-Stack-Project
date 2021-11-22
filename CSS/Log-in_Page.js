@@ -5,6 +5,9 @@ let word = document.getElementById("password")
 // here the usernames and passwords are stored
 let usernames = ['Java-Fanatic', 'HTMLlord15', 'CSSmaster99']
 let passwords = ['Java100', 'Hyper-234', 'Style-man1']
+
+// let usernames = [{text: 'Java-Fanatic', pass: 'Java100'},{text: 'HTMLlord15', pass: 'Hyper-234'}]
+
 // this helps prevent wrong or null values
 let N = -1
 
