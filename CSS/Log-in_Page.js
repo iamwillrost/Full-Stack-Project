@@ -8,9 +8,10 @@ let passwords = ['Java100', 'Hyper-234', 'Style-man1']
 // this helps prevent wrong or null values
 let N = -1
 
+// submit.disabled = true
 submit.addEventListener('click', newPage)
 
-// this determines
+// this determines if the log in info was correct
 function newPage() {
     // these determine the location of the username and password stored within the array
     let U = usernames.indexOf(name.value)
