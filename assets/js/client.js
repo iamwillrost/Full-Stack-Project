@@ -12,20 +12,20 @@ document.getElementById("demo").innerHTML = fruits; */
     {firstname : "Malcom", lastname: "Reynolds"},
     {firstname : "Kaylee", lastname: "Frye"},
     {firstname : "Jayne", lastname: "Cobb"}
-  ];
+];
   
   persons.map(getFullName);
   
-  function getFullName(item) {
+function getFullName(item) {
     return [item.firstname,item.lastname].join(" ");
-  } */
+} */
 
 let clients = [];
-clients.push("Suzie S")
+/* clients.push("Suzie S")
     
-document.getElementById("clients").innerHTML = clients;
+document.getElementById("clients").innerHTML = clients; */
 
-/* var addClient = function(){
+var addClient = function(){
     let clientName = userInput.value
     
     var clientObj = {
@@ -56,7 +56,7 @@ var saveClients = function() {
 submitBtn.addEventListener('click', addClient);
 
 loadClients()
-saveClients() */
+saveClients()
 
 
 
