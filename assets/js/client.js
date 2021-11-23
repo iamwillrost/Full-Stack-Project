@@ -1,26 +1,54 @@
-const submitBtn = document.getElementsByClassName('submitBtn')
+const submitBtn = document.getElementById('submitBtn')
 let userInput = document.querySelector('input')
-/* const clients = document.getElementsByClassName('clients') */
+
+// EXAMPLE from W3Schools
+/* const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi", "Lemon");
+
+document.getElementById("demo").innerHTML = fruits; */
 
 let clients = [];
+clients.push("Suzie S")
+    
+document.getElementById("clients").innerHTML = clients;
 
-const addClient = () => {
+/* var addClient = function(){
     let clientName = userInput.value
     
     var clientObj = {
         name: clientName
     };
     
+     // createClientEl(clientObj) 
+
+    var createClientEl = () => {
+        clients.push(clientName)
+    
+        document.getElementById("clients").innerHTML = clients;
+
+        console.log(clientName)
+    }; 
+
     createClientEl(clientObj)
+}; 
+
+var loadClients = function() {
+    clients = JSON.parse(localStorage.getItem("clients"));
 };
 
-var createClientEl = () => {
-    clients.push(clientName.value)
-
-    console.log(clientName)
+var saveClients = function() {
+    localStorage.setItem("clients", JSON.stringify(clients));
 };
 
-document.addEventListener('click', addClient);
+submitBtn.addEventListener('click', addClient);
+
+loadClients()
+saveClients() */
+
+
+
+
+
 
 /* let client = [];
 let clientName = document.getElementsByClassName("input").value
@@ -40,6 +68,6 @@ var createClientEl = () => {
     console.log(clientName)
 }; */
 
-/* submitBtn.addEventListener('click', () => {
-    addClient()
-}); */
+// submitBtn.addEventListener('click', () => {
+    //addClient()
+//}); 
