@@ -1,11 +1,24 @@
 const submitBtn = document.getElementById('submitBtn')
 let userInput = document.querySelector('input')
 
-// EXAMPLE from W3Schools
+// EXAMPLE from W3Schools for push function
 /* const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Kiwi", "Lemon");
 
 document.getElementById("demo").innerHTML = fruits; */
+
+// EXAMPLE from W3Schools for map function
+/* const persons = [
+    {firstname : "Malcom", lastname: "Reynolds"},
+    {firstname : "Kaylee", lastname: "Frye"},
+    {firstname : "Jayne", lastname: "Cobb"}
+  ];
+  
+  persons.map(getFullName);
+  
+  function getFullName(item) {
+    return [item.firstname,item.lastname].join(" ");
+  } */
 
 let clients = [];
 clients.push("Suzie S")
