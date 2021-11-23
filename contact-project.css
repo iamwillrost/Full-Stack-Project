@@ -1,4 +1,8 @@
 
+.hero {
+
+}
+
 #header {
     color: white;
     font-size: 25px;
@@ -23,7 +27,7 @@ body {
     width: 200px;
     padding-left: 50px;
     padding-top: 30px;
-    height: 200px;
+    height: 300px;
 }
 
 #right-form {
@@ -32,9 +36,16 @@ body {
     width: 200px;
     padding-left: 50px;
     padding-top: 30px;
-    height: 200px;
+    height: 300px;
    
 }
 
+#text-box {
+    height: 200px;
+    width: 150px;
+}
 
+#btn {
+    margin-top: 20px;
+}
 
