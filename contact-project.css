@@ -1,0 +1,40 @@
+
+#header {
+    color: white;
+    font-size: 25px;
+    background-color: #748b97;
+    text-align: center;
+}
+
+.label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px
+}
+
+body {
+    background-color: darkgray;
+}
+
+#left-form {
+    background-color: #748b97;
+    margin-left: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 200px;
+}
+
+#right-form {
+    background-color: #748b97;
+    margin-left: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 200px;
+   
+}
+
+
+
