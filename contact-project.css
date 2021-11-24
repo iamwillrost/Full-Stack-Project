@@ -1,6 +1,7 @@
 
 .hero {
-
+    background-image: url("Project\ 2\ BG.jpg");
+    background-position: center;
 }
 
 #header {
@@ -8,6 +9,8 @@
     font-size: 25px;
     background-color: #748b97;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .label {
@@ -23,21 +26,21 @@ body {
 
 #left-form {
     background-color: #748b97;
-    margin-left: 200px;
     width: 200px;
     padding-left: 50px;
     padding-top: 30px;
     height: 300px;
+    display: inline-block;
 }
 
 #right-form {
     background-color: #748b97;
-    margin-left: 200px;
     width: 200px;
     padding-left: 50px;
     padding-top: 30px;
     height: 300px;
-   
+    margin-top: 100px;
+    display: inline-block;
 }
 
 #text-box {
@@ -49,3 +52,20 @@ body {
     margin-top: 20px;
 }
 
+#left-margin {
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+}
+
+#center-margin {
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+}
+
+#right-margin {
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+}
