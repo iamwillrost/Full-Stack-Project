@@ -2,6 +2,7 @@
 .hero {
     background-image: url("Project\ 2\ BG.jpg");
     background-position: center;
+    height: 800px;
 }
 
 #header {
