@@ -1,0 +1,81 @@
+
+.hero {
+    background-image: url("Project\ 2\ BG.jpg");
+    background-position: center;
+    height: 800px;
+}
+
+#header {
+    color: white;
+    font-size: 25px;
+    background-color: #748b97;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px
+}
+
+
+#left-form {
+    background-color: #748b97;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 300px;
+    display: inline-block;
+    float:left;
+}
+
+#right-form {
+    background-color: #748b97;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 300px;
+    display: inline-block;
+    float:left;
+}
+
+#text-box {
+    height: 200px;
+    width: 150px;
+}
+
+#btn {
+    margin-top: 20px;
+}
+
+#left-margin {
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+    float:left;
+}
+
+#center-margin {
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+    float:left;
+}
+
+#right-margin {
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+    float:left;
+}
+
+#form-wrapper {
+    margin-top: 100px;
+}
+
+#clear-both {
+    clear: both;
+}

@@ -21,7 +21,7 @@ function getFullName(item) {
 } */
 
 let clients = [];
-//clients.forEach(addClient);
+//clients.forEach(newClient);
 
 function addClient() {
     let clientName = (userInput).value
