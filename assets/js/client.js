@@ -7,6 +7,10 @@ fruits.push("Kiwi", "Lemon");
 
 document.getElementById("demo").innerHTML = fruits; */
 
+/* clients.push("Suzie S")
+    
+document.getElementById("clients").innerHTML = clients; */
+
 // EXAMPLE from W3Schools for map function
 /* const persons = [
     {firstname : "Malcom", lastname: "Reynolds"},
@@ -21,47 +25,40 @@ function getFullName(item) {
 } */
 
 let clients = [];
-/* clients.push("Suzie S")
-    
-document.getElementById("clients").innerHTML = clients; */
 
 var addClient = function(){
-    let clientName = userInput.value
+    let clientName = (userInput).value
+    console.log(clientName)
+
+    clients.push(clientName)
+
+    document.getElementById('clients').innerHTML = clients;
     
-    var clientObj = {
+    /* var clientObj = {
         name: clientName
     };
     
-     // createClientEl(clientObj) 
-
-    var createClientEl = () => {
-        clients.push(clientName)
-    
-        document.getElementById("clients").innerHTML = clients;
-
-        console.log(clientName)
-    }; 
-
-    createClientEl(clientObj)
+     createClientEl(clientObj) */ 
 }; 
 
-var loadClients = function() {
+/* var createClientEl = () => {
+    clients.push(clientName)
+
+    document.getElementById("clients").innerHTML = clients;
+};  */
+
+/* var loadClients = function() {
     clients = JSON.parse(localStorage.getItem("clients"));
 };
 
 var saveClients = function() {
     localStorage.setItem("clients", JSON.stringify(clients));
-};
+}; */
 
 submitBtn.addEventListener('click', addClient);
 
-loadClients()
-saveClients()
-
-
-
-
-
+/* loadClients()
+saveClients() */
 
 /* let client = [];
 let clientName = document.getElementsByClassName("input").value
