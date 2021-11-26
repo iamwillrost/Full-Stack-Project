@@ -1,5 +1,20 @@
 const submitBtn = document.getElementById('submitBtn')
-let userInput = document.querySelector('input')
+let client = document.getElementById('client')
+
+function createClient() {
+   var ul = document.getElementById('client')
+   var clientName = document.getElementById('clientName')
+   var li = document.createElement("li")
+   li.setAttribute('id', clientName.value)
+   li.appendChild(document.createTextNode(clientName.value))
+   ul.appendChild(li)
+
+   document.querySelector("input[id='clientName']").value = "";
+}
+
+submitBtn.addEventListener('click', createClient)
+
+//let userInput = document.querySelector('input')
 
 // EXAMPLE from W3Schools for PUSH function
 /* const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -20,25 +35,53 @@ function getFullName(item) {
     return [item.firstname,item.lastname].join(" ");
 } */
 
-let clients = [];
-//clients.forEach(newClient);
+
+
+
+/* let clients = [];
+//clients.forEach(addClient);
 
 function addClient() {
-    let clientName = (userInput).value
+    let clientName = document.querySelector("input[name='clientName']").value
     console.log(clientName)
 
     clients.push(clientName)
 
-    document.getElementById('clients').innerHTML = clients;
+    client.innerHTML = clients;
 
     document.querySelector("input[id='clientName']").value = "";
-    
+};  */
+
+
+
+
+/* var clientObj = {
+        name: clientName
+    } */
+
+    //createClient(clientObj)
+
+    /* clientObj.innerHTML = 
+    "<ul class='clientName'>" + clientName + "</ul>" + clients
+    clients.push(clientName) */
+
     /* var clientObj = {
         name: clientName
     };*/
-}; 
 
-submitBtn.addEventListener('click', addClient);
+/* function createClient(clientObj) {
+    clientList = document.createElement("li")
+    clientList.idName = "clients"
+
+    clientList.createElement('ul')
+    clientList.appendChild(clientObj)
+}; */
+
+
+
+//submitBtn.addEventListener('click', addClient);
+
+
 
 /* loadClients()
 saveClients() */
@@ -59,7 +102,7 @@ const addClient = () => {
 };
 
 var createClientEl = () => {
-    clients.push(clientName.value).clientObj
 
-    console.log(clientName)
+    clientList = document.createElement("li");
+
 }; */
