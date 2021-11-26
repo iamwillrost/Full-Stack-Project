@@ -9,6 +9,8 @@ function createClient() {
    li.appendChild(document.createTextNode(clientName.value))
    ul.appendChild(li)
 
+   client.classList.remove("hide")
+
    document.querySelector("input[id='clientName']").value = "";
 }
 

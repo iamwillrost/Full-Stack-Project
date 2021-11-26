@@ -136,3 +136,7 @@ header h2:hover {
     color:#748b97;
     background-color: white;
 }
+
+.hide {
+    display: none;
+}
