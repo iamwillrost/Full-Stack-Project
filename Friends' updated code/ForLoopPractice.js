@@ -1,6 +1,7 @@
 const submitBtn = document.getElementById('submitBtn')
 let client = document.getElementById('client')
 
+// need to append li to href to list hyperlinks
 function createClient() {
     var names = []
     var clientName = document.getElementById('clientName').value
@@ -21,13 +22,14 @@ function createClient() {
         li.appendChild(text)
         ul.appendChild(li)
 
-        console.log(clientName)
+        console.log(clientName.value)
 
-    //client.classList.remove("hide")
+    client.classList.remove("hide")
 
     document.querySelector("input[id='clientName']").value = "";
     }
 }
+//  team profile generator
 
 submitBtn.addEventListener('click', createClient)
 
@@ -36,7 +38,6 @@ submitBtn.addEventListener('click', createClient)
 // EXAMPLE from W3Schools for PUSH function
 /* const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Kiwi", "Lemon");
-
 document.getElementById("demo").innerHTML = fruits; */
 
 // EXAMPLE from W3Schools for MAP function
@@ -57,15 +58,11 @@ function getFullName(item) {
 
 /* let clients = [];
 //clients.forEach(addClient);
-
 function addClient() {
     let clientName = document.querySelector("input[name='clientName']").value
     console.log(clientName)
-
     clients.push(clientName)
-
     client.innerHTML = clients;
-
     document.querySelector("input[id='clientName']").value = "";
 };  */
 
@@ -89,7 +86,6 @@ function addClient() {
 /* function createClient(clientObj) {
     clientList = document.createElement("li")
     clientList.idName = "clients"
-
     clientList.createElement('ul')
     clientList.appendChild(clientObj)
 }; */
@@ -108,7 +104,6 @@ saveClients() */
 
 /* let client = [];
 let clientName = document.getElementsByClassName("input").value
-
 const addClient = () => {
     
     var clientObj = {
@@ -117,9 +112,6 @@ const addClient = () => {
     
     createClientEl(clientObj)
 };
-
 var createClientEl = () => {
-
     clientList = document.createElement("li");
-
 }; */

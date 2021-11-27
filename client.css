@@ -4,6 +4,145 @@
     padding: 0;
 }
 
+/* body {
+    background-image: url('../Full-Stack-Project/IMG_3879.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+header {
+    color: white;
+    background-color: #748b97;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(116, 139, 151, 0.5);
+}
+
+header h2:hover {
+    color: lightgrey; 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.businessName {
+    margin-top: 125px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    background-color: darkgrey;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+.businessName h1 {
+    border-bottom: 3px solid;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.clients {
+    /* width: 100%;*/
+    /* margin: 100px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clientList {
+    margin: 60px;
+    width: 400px;
+    background-color: #748b97;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+
+.clientList h2 {
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+.clientList ul{
+    /* display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 2px;
+    list-style: none;
+} 
+
+.clientList ul:hover {
+    color: white;
+    background-color: darkgrey;
+}
+
+/* .clientList li{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+} */
+
+/*.addClient {
+    margin: 60px;
+    width: 400px;
+    height: 245px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #748b97;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.addClient h2 {
+    margin-bottom: 5px;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+.addClient div input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.submitBtn {
+    margin-top: 10px;
+    color: white;
+    background-color: darkgrey;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 2px;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.submitBtn:hover {
+    font-style: italic;
+    color:#748b97;
+    background-color: white;
+} */
+
+/* .hide {
+    display: none;
+} */
+
+
 body {
     background-image: url('../Full-Stack-Project/IMG_3879.jpeg');
     background-size: cover;
@@ -24,7 +163,6 @@ header {
 }
 
 header h2:hover {
-    /* color: lightgrey; */
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
@@ -69,12 +207,10 @@ header h2:hover {
     border-bottom: 3px solid;
     text-align: center;
 }
-
-.clientList ul{
-    /* display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column; */
-
+.clientUL ul{
+    list-style: none;
+}
+.clientUL li{
     margin-top: 10px;
     margin-bottom: 10px;
     color: black;
@@ -85,16 +221,10 @@ header h2:hover {
     list-style: none;
 } 
 
-.clientList ul:hover {
+.clientList li:hover {
     color: white;
     background-color: darkgrey;
 }
-
-/* .clientList li{
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-} */
 
 .addClient {
     margin: 60px;
@@ -138,6 +268,6 @@ header h2:hover {
     background-color: white;
 }
 
-.hide {
+/* .hide {
     display: none;
-}
+} */
