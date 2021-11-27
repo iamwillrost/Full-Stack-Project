@@ -90,10 +90,11 @@ header h2:hover {
     background-color: darkgrey;
 }
 
-.clientList li{
-    position: relative;
-    display: block;
-}
+/* .clientList li{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+} */
 
 .addClient {
     margin: 60px;

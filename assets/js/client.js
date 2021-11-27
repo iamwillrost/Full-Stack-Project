@@ -2,16 +2,31 @@ const submitBtn = document.getElementById('submitBtn')
 let client = document.getElementById('client')
 
 function createClient() {
-   var ul = document.getElementById('client')
-   var clientName = document.getElementById('clientName')
-   var li = document.createElement("li")
-   li.setAttribute('id', clientName.value)
-   li.appendChild(document.createTextNode(clientName.value))
-   ul.appendChild(li)
+    var names = []
+    var clientName = document.getElementById('clientName').value
+    // pushes name into array so array isn't empty
+    names.push(clientName)
+    console.log(names)
+    for (var i = 0; i < names.length; i++) {
+        var ul = document.getElementById('client')
+        var text = document.createTextNode(names[i])
+        var li = document.createElement("li")
+        var a = document.createElement("a")
 
-   client.classList.remove("hide")
+        a.textContent = clientName.value
+        // need to create actual page; handlebars???; back-end???
+        a.setAttribute('href', "")
 
-   document.querySelector("input[id='clientName']").value = "";
+        li.setAttribute('id', names[i])
+        li.appendChild(text)
+        //ul.appendChild(li)
+
+        console.log(clientName.value)
+
+    //client.classList.remove("hide")
+
+    document.querySelector("input[id='clientName']").value = "";
+    }
 }
 
 submitBtn.addEventListener('click', createClient)
