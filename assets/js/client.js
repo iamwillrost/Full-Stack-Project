@@ -20,25 +20,33 @@ function getFullName(item) {
     return [item.firstname,item.lastname].join(" ");
 } */
 
-let clients = [];
-//clients.forEach(addClient);
+function createClient() {
+    var names = []
+    var clientName = document.getElementById('clientName').value
+    // pushes name into array so array isn't empty
+    names.push(clientName)
+    console.log(names)
+    for (var i = 0; i < names.length; i++) {
+        var ul = document.getElementById('client')
+        var text = document.createTextNode(names[i])
+        var li = document.createElement("li")
+        var a = document.createElement("a")
 
-function addClient() {
-    let clientName = (userInput).value
-    console.log(clientName)
+        a.textContent = clientName.value
+        // need to create actual page; handlebars???; back-end???
+        a.setAttribute('href', "")
 
-    clients.push(clientName)
+        li.setAttribute('id', names[i])
+        li.appendChild(text)
+        ul.appendChild(li)
 
-    document.getElementById('clients').innerHTML = clients;
-
-    document.querySelector("input[id='clientName']").value = "";
+        console.log(clientName)
     
-    /* var clientObj = {
-        name: clientName
-    };*/
-}; 
+        document.querySelector("input[id='clientName']").value = "";
+    }
+}
 
-submitBtn.addEventListener('click', addClient);
+submitBtn.addEventListener('click', createClient);
 
 /* loadClients()
 saveClients() */
