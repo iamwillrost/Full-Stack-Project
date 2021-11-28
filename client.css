@@ -23,6 +23,11 @@ header {
     border-bottom: 1px solid rgba(116, 139, 151, 0.5);
 }
 
+header h2 a {
+    text-decoration: none;
+    color: white;
+}
+
 header h2:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
@@ -71,6 +76,7 @@ header h2:hover {
 .clientUL ul{
     list-style: none;
 }
+
 .clientUL li{
     margin-top: 10px;
     margin-bottom: 10px;
