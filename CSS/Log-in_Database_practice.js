@@ -1,0 +1,2 @@
+
+// usernames.includes(name.user)
